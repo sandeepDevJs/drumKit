@@ -1,0 +1,51 @@
+body {
+   background-image: url("https://unctad.org/sites/default/files/2021-09/2021-09-28-COVID-19-music-CreativeEconomy-blog-1200x675px.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 98vh;
+}
+
+.control-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+}
+
+.control-box {
+   border: 3px solid black;
+   text-align: center;
+   padding: 6px;
+   width: 60px;
+   background-color: rgba(67, 59, 59, 0.75);
+   border-radius: 4px;
+   transition: all 0.07s;
+}
+
+.control-key {
+   text-align: center;
+   color: white;
+   font-size: 40px;
+   margin-bottom: 5px;
+}
+
+.sound-name {
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 10px;
+   color: yellow;
+}
+
+.playing {
+   border: 3px solid yellow;
+   transform: scale(1.1);
+   box-shadow: 0 0 10px yellow;
+}
